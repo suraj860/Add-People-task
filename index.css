@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    width:500px;
+    height:auto;
+    background-color:rgb(90, 203, 248); 
+    padding-bottom: 10px; 
+  }
+  
+/*Form tag css*/
+
+.forms{
+  width:500px;
+  background-color:rgb(90, 203, 248); 
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+/* All buttons css*/
+
+.buttondivs{
+  margin-left: 45px;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.btn2{
+  margin-top: 15px;
+  padding: 5px 16px;
+  border:1px solid rgb(90, 203, 248);
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn1{
+  border:1px solid rgb(90, 203, 248);
+  background-color: white;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.donebtn,.cancelbtn,.addbtn{
+  font-size: 1.5rem;
+  font-family: arial;
+  border: 2px solid white;
+  background-color: rgb(90, 203, 248);
+  color: white;
+  cursor: pointer;
+ 
+}
+
+.donebtn{
+  padding: 5px 25px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.cancelbtn{
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.addbtn{
+  padding: 14px 70px; 
+  margin-bottom: 5px; 
+ 
+}
+
+/*textboxes css*/
+
+#userName, #picture{
+  border: 1px solid  white ;
+  background-color: rgb(90, 203, 248);
+  height: 2.4rem;
+  width: 12rem;
+  margin-right:10px;
+  border-radius: 5%;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*profile pic css*/
+
+img{
+  border-radius : 50% ;
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+.image{
+   text-align: center;
+ }
+
+ /*profile data css*/
+.profile{
+  display:flex;
+  border-radius: 5%;
+  background-color: white;
+  margin:0 40px 20px 40px ;
+}
+
+.info{
+  margin-top: 0;
+  margin-bottom: auto;
+  text-align: left;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.date{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: rgb(104, 101, 101);
+}
